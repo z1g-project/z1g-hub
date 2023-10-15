@@ -245,6 +245,15 @@
   <ItemGroup>
     <None Include="Resources\error-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nodejs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sodium-header-img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uv.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

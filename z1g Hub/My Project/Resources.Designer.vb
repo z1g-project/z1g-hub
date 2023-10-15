@@ -83,6 +83,36 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property nodejs() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("nodejs", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property sodium_header_img() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("sodium-header-img", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property uv() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("uv", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property WindowsLoading() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("WindowsLoading", resourceCulture)

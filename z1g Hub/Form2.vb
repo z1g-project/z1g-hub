@@ -23,6 +23,10 @@ Public Class Form2
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Panel2.Visible = False
+        Panel3.Visible = False
+        Panel4.Visible = False
+        Panel5.Visible = False
+        Panel6.Visible = False
         fetchNews()
     End Sub
 
@@ -105,5 +109,40 @@ Public Class Form2
     Private Sub Label16_Click(sender As Object, e As EventArgs) Handles Label16.Click
         NewsDiag.Show()
         NewsDiag.ChromiumWebBrowser1.Load("https://cdn.z1g-project.repl.co/z1g-hub/news1.html")
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+        Panel3.Visible = True
+        Panel4.Visible = False
+        Panel5.Visible = False
+        Panel6.Visible = False
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+        Panel3.Visible = True
+        Panel4.Visible = True
+        Panel5.Visible = False
+        Panel6.Visible = False
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+        Panel3.Visible = True
+        Panel4.Visible = True
+        Panel5.Visible = True
+        Panel6.Visible = False
+    End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
+        Panel3.Visible = True
+        Panel4.Visible = True
+        Panel5.Visible = True
+        Panel6.Visible = True
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+        Panel3.Visible = False
+        Panel4.Visible = False
+        Panel5.Visible = False
+        Panel6.Visible = False
     End Sub
 End Class
